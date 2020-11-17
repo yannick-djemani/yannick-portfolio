@@ -1,0 +1,24 @@
+/* General style */
+@import 'config';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background: #fff;
+}
+a{
+    text-decoration: none;
+    color: $dark-color;
+}
+
+h2,h3,h4{
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+}
